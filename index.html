@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TodoList</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js"></script>
+  </head>
+  <body>
+    <div id="root">
+      <header>
+        <h1>Todos</h1>
+      </header>
+      <main>
+        <section>
+          <div><button>SelectAll</button><input type="text" /></div>
+          <div class="container">
+            <div class="controller flex">
+              <div class="count">0</div>
+              <div class="btns">
+                <button>All</button>
+                <button>Active</button>
+                <button>complete</button>
+              </div>
+              <button>Claer Complete</button>
+            </div>
+            <div id="todoList">
+              <div class="todo">
+                <div class="check">✔</div>
+                <div class="content">What needs to be done?</div>
+                <div class="remove">❌</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>Copyright 2022. YEONGYU All rights reserved.</footer>
+    </div>
+  </body>
+</html>
